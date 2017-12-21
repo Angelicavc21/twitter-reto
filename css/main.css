@@ -1,223 +1,223 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   
-  header {
-    background-color: white;
-    height: 50px;
-    width: 100%;
-    box-shadow: 1px 1px 10px #acb1b4;
-  }
-  
-  body {
-    background-color: #b9dcf1;
-    font-family: 'Hind', sans-serif;
-  }
-  
-  main {
-    margin: 10px auto;
-    width: 90%;
-    height: auto;
-  }
-  
-  .name-user {
-    font-weight: 700;
-    font-size: 18px;
-  }
-  .first-user {
-    color: #657796;
-    font-size: 14px;
-  }
-  
-  .box-name-user{
-    width: 110px;
-    position: relative;
-    left: 110px;
-  }
-  
-  .num{
-    color: #66a1f2;
-    font-weight: bold;
-    font-size: 18px;
-    width: 100px;
-    text-align: center;
-  }
-  
-  .text-num {
-    font-size: 12px;
-    font-weight: 700;
-    text-align: center;
-    color: #0c08f0;
-  }
-  
-  table {
-    margin: 10px;
-  }
-  
-  nav {
-    width: 50%;
-     margin-left: 60px;
-  }
-  .logo{
-    color:#1da1f2;
-    font-size: 20px;
-    position: relative;
-    left: 300px;
-    
-  }
-  
-  .iconos {
-    color: #66757f;
-    margin-left: 20px;
-    margin-right: 5px;
-    font-size: 20px;
-  }
-  
-  .iconos:hover {
-    color:#0676b8;
-    border-bottom: 3px solid #156da0;
-  }
-  
-  header div p {
-  display: inline-block;
-  font-size: 13px;
+}
+
+header {
+  background-color: white;
+  height: 50px;
+  width: 100%;
+  box-shadow: 1px 1px 10px #acb1b4;
+}
+
+body {
+  background-color: #b9dcf1;
+  font-family: 'Hind', sans-serif;
+}
+
+main {
+  margin: 10px auto;
+  width: 90%;
+  height: auto;
+}
+
+.name-user {
   font-weight: 700;
-  margin-left: 10px;
-  }
+  font-size: 18px;
+}
+.first-user {
+  color: #657796;
+  font-size: 14px;
+}
+
+.box-name-user{
+  width: 110px;
+  position: relative;
+  left: 110px;
+}
+
+.num{
+  color: #66a1f2;
+  font-weight: bold;
+  font-size: 18px;
+  width: 100px;
+  text-align: center;
+}
+
+.text-num {
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  color: #0c08f0;
+}
+
+table {
+  margin: 10px;
+}
+
+nav {
+  width: 50%;
+   margin-left: 60px;
+}
+.logo{
+  color:#1da1f2;
+  font-size: 20px;
+  position: relative;
+  left: 300px;
   
-  header div {
-    height: auto;
-    width: auto;
-    display: inline-block;
-    margin: 15px auto;
-    font-weight: 700;
-  }
-  
-  .photo-user img {
-    width: 90px;
-    height: 90px;
-    border-radius: 50px;
-    border: 3px solid white;
-    position: absolute;
-    top: 50px;
-    left: 13px;
-  }
-  
-  .photo-user-textarea img {
-    width: 50px;
-    height:50px;
-    border-radius: 50px;
-    position: absolute;
-    top: 15px;
-    left: 10px;
-  }
-  
-  
-  figure img {
-    width: 310px;
-    height: 90px;
-  }
-  
-  .box-user {
-    margin: 0px;
-    float: left;
-    width: 310px;
-    height: 245px;
-    position: relative;
-  }
-  
-  .box-tweet {
-    margin: 5px;
-    float: left;
-    width: 593px;
-    height: auto;
-    background-color: #e8f5fd;
-    position: relative;
-  }
-  
-  .box-suger {
-    margin: 5px;
-    float: right;
-    width: 250px;
-    height: 700px;
-  }
-  
-  .style-box {
-    background-color: white;
-  }
-  
-  .box-info-twitter{
-    width: 295px;
-    height: 300px;
-    font-size: 12px;
-  }
-  
-  
-  
-  textarea {
-    width: 500px;
-    margin: 15px 70px 5px;
-    border: 2px solid #a4d9f9;
-    border-radius: 8px;
-    outline: none;
-    padding: 20px;
-    background-color: white;
-    overflow: hidden;
-    resize: none;
-  }
-  
-  button {
-    width: 88px;
-    height: 34px;
-    border: none;
-    background-color: #50b6f5;
-    margin: 1px 12px 12px 21px;
-    color: white;
-    border-radius: 20px;
-    font-size: 14px;
-    font-weight: bold;
-    font-family: sans-serif;
-  }
-  
-  .new-tweet {
-    width: 593px;
-    height: auto;
-    margin-top: 10px;
-    background-color: white;
-  }
-  
-  span {
-    font-size: 20px;
-    font-weight: 700;
-  }
-  
-  h2{
-    font-size: 20px;
-    margin: 10px 15px;
-  }
-  
-  h3 {
-    color: #0b4591;
-    font-size: 14px;
-    margin: 10px 15px;
-  }
-  
-  .box-suger p {
-    font-size: 14px;
-    color: #657786;
-    margin: 10px 15px;
-  }
-  
-  .tweet-style {
-    background-color: white;
-    width: inherit;
-    height: auto;
-    word-wrap: break-word;
-    border: 1px solid #e6ecf0;
-    padding: 15px;
-    font-family: 'Source Sans Pro';
-    font-size: 12px;
-  }
+}
+
+.iconos {
+  color: #66757f;
+  margin-left: 20px;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.iconos:hover {
+  color:#0676b8;
+  border-bottom: 3px solid #156da0;
+}
+
+header div p {
+display: inline-block;
+font-size: 13px;
+font-weight: 700;
+margin-left: 10px;
+}
+
+header div {
+  height: auto;
+  width: auto;
+  display: inline-block;
+  margin: 15px auto;
+  font-weight: 700;
+}
+
+.photo-user img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  border: 3px solid white;
+  position: absolute;
+  top: 50px;
+  left: 13px;
+}
+
+.photo-user-textarea img {
+  width: 50px;
+  height:50px;
+  border-radius: 50px;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+
+
+figure img {
+  width: 310px;
+  height: 90px;
+}
+
+.box-user {
+  margin: 0px;
+  float: left;
+  width: 310px;
+  height: 245px;
+  position: relative;
+}
+
+.box-tweet {
+  margin: 5px;
+  float: left;
+  width: 593px;
+  height: auto;
+  background-color: #e8f5fd;
+  position: relative;
+}
+
+.box-suger {
+  margin: 5px;
+  float: right;
+  width: 250px;
+  height: 700px;
+}
+
+.style-box {
+  background-color: white;
+}
+
+.box-info-twitter{
+  width: 295px;
+  height: 300px;
+  font-size: 12px;
+}
+
+
+
+textarea {
+  width: 500px;
+  margin: 15px 70px 5px;
+  border: 2px solid #a4d9f9;
+  border-radius: 8px;
+  outline: none;
+  padding: 20px;
+  background-color: white;
+  overflow: hidden;
+  resize: none;
+}
+
+button {
+  width: 88px;
+  height: 34px;
+  border: none;
+  background-color: #50b6f5;
+  margin: 1px 12px 12px 21px;
+  color: white;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.new-tweet {
+  width: 593px;
+  height: auto;
+  margin-top: 10px;
+  background-color: white;
+}
+
+span {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+h2{
+  font-size: 20px;
+  margin: 10px 15px;
+}
+
+h3 {
+  color: #0b4591;
+  font-size: 14px;
+  margin: 10px 15px;
+}
+
+.box-suger p {
+  font-size: 14px;
+  color: #657786;
+  margin: 10px 15px;
+}
+
+.tweet-style {
+  background-color: white;
+  width: inherit;
+  height: auto;
+  word-wrap: break-word;
+  border: 1px solid #e6ecf0;
+  padding: 15px;
+  font-family: 'Source Sans Pro';
+  font-size: 12px;
+}
